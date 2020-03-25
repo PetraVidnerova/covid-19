@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 typ = 'ORP' # možné hodnoty:  'Kraj', 'Okres', 'ORP', None (to stahne vsechno do jednoho souboru)
-SNAPSHOT = 12 # Duben 2019, viz https://api.inovujemesdaty.cz/snapshots.csv
-FILE_NAME = 'commuting_relations_ORP_4_2019' # příponu csv připojíme automaticky
+SNAPSHOT = 14 # červen 2019, viz https://api.inovujemesdaty.cz/snapshots.csv
+FILE_NAME = 'commuting_relations_ORP_6_2019' # příponu csv připojíme automaticky
 BASE_URL = 'https://api.inovujemesdaty.cz/commuting_between_locations.csv' 
 DOWNLOAD_BY = 10 # stahovat 10 lokací najednou
 SLEEP_TIME = 1 # po každém stažení počkat sekundu
@@ -25,7 +25,7 @@ def make_url(loc_ids):
 import urllib.request
 import os, shutil, time
 if not os.path.isdir('tmp'):
-    os.mkdir('tmp')e
+    os.mkdir('tmp')
 i = 1
 file_names = []
 for loc_ids in chunks(locations.id, DOWNLOAD_BY):
