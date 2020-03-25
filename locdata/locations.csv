@@ -1,0 +1,298 @@
+id,name,type
+3018,Hlavní město Praha,Kraj
+3034,Jihočeský kraj,Kraj
+3115,Jihomoravský kraj,Kraj
+3051,Karlovarský kraj,Kraj
+3107,Kraj Vysočina,Kraj
+3085,Královéhradecký kraj,Kraj
+3077,Liberecký kraj,Kraj
+3140,Moravskoslezský kraj,Kraj
+3123,Olomoucký kraj,Kraj
+3093,Pardubický kraj,Kraj
+3042,Plzeňský kraj,Kraj
+3026,Středočeský kraj,Kraj
+3069,Ústecký kraj,Kraj
+3131,Zlínský kraj,Kraj
+40169,Benešov,Okres
+40177,Beroun,Okres
+40703,Blansko,Okres
+40738,Břeclav,Okres
+40711,Brno-město,Okres
+40720,Brno-venkov,Okres
+40860,Bruntál,Okres
+40525,Česká Lípa,Okres
+40282,České Budějovice,Okres
+40291,Český Krumlov,Okres
+40428,Cheb,Okres
+40461,Chomutov,Okres
+40614,Chrudim,Okres
+40452,Děčín,Okres
+40355,Domažlice,Okres
+40878,Frýdek-Místek,Okres
+40657,Havlíčkův Brod,Okres
+40746,Hodonín,Okres
+40568,Hradec Králové,Okres
+40533,Jablonec nad Nisou,Okres
+40771,Jeseník,Okres
+40576,Jičín,Okres
+40665,Jihlava,Okres
+40304,Jindřichův Hradec,Okres
+40436,Karlovy Vary,Okres
+40886,Karviná,Okres
+40185,Kladno,Okres
+40363,Klatovy,Okres
+40193,Kolín,Okres
+40827,Kroměříž,Okres
+40207,Kutná Hora,Okres
+40541,Liberec,Okres
+40479,Litoměřice,Okres
+40487,Louny,Okres
+40215,Mělník,Okres
+40223,Mladá Boleslav,Okres
+40495,Most,Okres
+40584,Náchod,Okres
+40894,Nový Jičín,Okres
+40231,Nymburk,Okres
+40789,Olomouc,Okres
+40908,Opava,Okres
+40916,Ostrava-město,Okres
+40622,Pardubice,Okres
+40673,Pelhřimov,Okres
+40312,Písek,Okres
+40380,Plzeň-jih,Okres
+40371,Plzeň-město,Okres
+40398,Plzeň-sever,Okres
+40321,Prachatice,Okres
+40924,Praha,Okres
+40240,Praha-východ,Okres
+40258,Praha-západ,Okres
+40801,Přerov,Okres
+40266,Příbram,Okres
+40797,Prostějov,Okres
+40274,Rakovník,Okres
+40401,Rokycany,Okres
+40592,Rychnov nad Kněžnou,Okres
+40550,Semily,Okres
+40444,Sokolov,Okres
+40339,Strakonice,Okres
+40819,Šumperk,Okres
+40631,Svitavy,Okres
+40347,Tábor,Okres
+40410,Tachov,Okres
+40509,Teplice,Okres
+40681,Třebíč,Okres
+40606,Trutnov,Okres
+40835,Uherské Hradiště,Okres
+40517,Ústí nad Labem,Okres
+40649,Ústí nad Orlicí,Okres
+40843,Vsetín,Okres
+40754,Vyškov,Okres
+40690,Žďár nad Sázavou,Okres
+40851,Zlín,Okres
+40762,Znojmo,Okres
+507,Aš,ORP
+27,Benešov,ORP
+51,Beroun,ORP
+906,Bílina,ORP
+1830,Bílovec,ORP
+1295,Blansko,ORP
+434,Blatná,ORP
+591,Blovice,ORP
+1783,Bohumín,ORP
+1309,Boskovice,ORP
+213,Brandýs nad Labem-Stará Boleslav,ORP
+1384,Břeclav,ORP
+1317,Brno,ORP
+1031,Broumov,ORP
+1716,Bruntál,ORP
+1627,Bučovice,ORP
+1678,Bystřice nad Pernštejnem,ORP
+1520,Bystřice pod Hostýnem,ORP
+124,Čáslav,ORP
+230,Černošice,ORP
+710,Česká Lípa,ORP
+1279,Česká Třebová,ORP
+302,České Budějovice,ORP
+108,Český Brod,ORP
+329,Český Krumlov,ORP
+1821,Český Těšín,ORP
+515,Cheb,ORP
+752,Chomutov,ORP
+931,Chotěboř,ORP
+981,Chrudim,ORP
+337,Dačice,ORP
+728,Děčín,ORP
+248,Dobříš,ORP
+1104,Dobruška,ORP
+485,Domažlice,ORP
+1201,Dvůr Králové nad Labem,ORP
+1848,Frenštát pod Radhoštěm,ORP
+1741,Frýdek-Místek,ORP
+809,Frýdlant,ORP
+1759,Frýdlant nad Ostravicí,ORP
+1791,Havířov,ORP
+949,Havlíčkův Brod,ORP
+990,Hlinsko,ORP
+1929,Hlučín,ORP
+1473,Hodonín,ORP
+1538,Holešov,ORP
+1074,Holice,ORP
+558,Horažďovice,ORP
+1007,Hořice,ORP
+60,Hořovice,ORP
+493,Horšovský Týn,ORP
+965,Hradec Králové,ORP
+1970,Hranice,ORP
+361,Humpolec,ORP
+1392,Hustopeče,ORP
+1325,Ivančice,ORP
+779,Jablonec nad Nisou,ORP
+1767,Jablunkov,ORP
+1040,Jaroměř,ORP
+2062,Jeseník,ORP
+1015,Jičín,ORP
+1503,Jihlava,ORP
+1139,Jilemnice,ORP
+345,Jindřichův Hradec,ORP
+761,Kadaň,ORP
+311,Kaplice,ORP
+531,Karlovy Vary,ORP
+1805,Karviná,ORP
+78,Kladno,ORP
+566,Klatovy,ORP
+94,Kolín,ORP
+1554,Konice,ORP
+1856,Kopřivnice,ORP
+1112,Kostelec nad Orlicí,ORP
+1236,Králíky,ORP
+639,Kralovice,ORP
+132,Kralupy nad Vltavou,ORP
+663,Kraslice,ORP
+1937,Kravaře,ORP
+1724,Krnov,ORP
+1546,Kroměříž,ORP
+1333,Kuřim,ORP
+116,Kutná Hora,ORP
+1481,Kyjov,ORP
+1244,Lanškroun,ORP
+817,Liberec,ORP
+1988,Lipník nad Bečvou,ORP
+825,Litoměřice,ORP
+1163,Litomyšl,ORP
+1881,Litovel,ORP
+884,Litvínov,ORP
+850,Louny,ORP
+833,Lovosice,ORP
+1422,Luhačovice,ORP
+183,Lysá nad Labem,ORP
+523,Mariánské Lázně,ORP
+141,Mělník,ORP
+1406,Mikulov,ORP
+396,Milevsko,ORP
+167,Mladá Boleslav,ORP
+175,Mnichovo Hradiště,ORP
+2003,Mohelnice,ORP
+1171,Moravská Třebová,ORP
+1571,Moravské Budějovice,ORP
+1651,Moravský Krumlov,ORP
+892,Most,ORP
+1066,Náchod,ORP
+1589,Náměšť nad Oslavou,ORP
+604,Nepomuk,ORP
+159,Neratovice,ORP
+1023,Nová Paka,ORP
+1058,Nové Město nad Metují,ORP
+1686,Nové Město na Moravě,ORP
+701,Nový Bor,ORP
+973,Nový Bydžov,ORP
+1864,Nový Jičín,ORP
+191,Nymburk,ORP
+647,Nýřany,ORP
+1872,Odry,ORP
+1899,Olomouc,ORP
+1945,Opava,ORP
+1813,Orlová,ORP
+1961,Ostrava,ORP
+540,Ostrov,ORP
+1431,Otrokovice,ORP
+370,Pacov,ORP
+1082,Pardubice,ORP
+388,Pelhřimov,ORP
+400,Písek,ORP
+582,Plzeň,ORP
+868,Podbořany,ORP
+205,Poděbrady,ORP
+1414,Pohořelice,ORP
+1180,Polička,ORP
+418,Prachatice,ORP
+19,Praha,ORP
+1091,Přelouč,ORP
+1996,Přerov,ORP
+612,Přeštice,ORP
+256,Příbram,ORP
+1562,Prostějov,ORP
+272,Rakovník,ORP
+221,Říčany,ORP
+655,Rokycany,ORP
+1341,Rosice,ORP
+841,Roudnice nad Labem,ORP
+2038,Rožnov pod Radhoštěm,ORP
+736,Rumburk,ORP
+1121,Rychnov nad Kněžnou,ORP
+1732,Rýmařov,ORP
+264,Sedlčany,ORP
+1147,Semily,ORP
+86,Slaný,ORP
+1368,Šlapanice,ORP
+1635,Slavkov u Brna,ORP
+469,Soběslav,ORP
+671,Sokolov,ORP
+1911,Šternberk,ORP
+621,Stod,ORP
+442,Strakonice,ORP
+680,Stříbro,ORP
+2020,Šumperk,ORP
+574,Sušice,ORP
+957,Světlá nad Sázavou,ORP
+1198,Svitavy,ORP
+477,Tábor,ORP
+698,Tachov,ORP
+787,Tanvald,ORP
+1511,Telč,ORP
+914,Teplice,ORP
+1350,Tišnov,ORP
+1597,Třebíč,ORP
+353,Třeboň,ORP
+281,Trhové Sviny,ORP
+1775,Třinec,ORP
+1210,Trutnov,ORP
+1155,Turnov,ORP
+299,Týn nad Vltavou,ORP
+1601,Uherské Hradiště,ORP
+1619,Uherský Brod,ORP
+1902,Uničov,ORP
+922,Ústí nad Labem,ORP
+1287,Ústí nad Orlicí,ORP
+1449,Valašské Klobouky,ORP
+2046,Valašské Meziříčí,ORP
+744,Varnsdorf,ORP
+1694,Velké Meziříčí,ORP
+1490,Veselí nad Moravou,ORP
+426,Vimperk,ORP
+1953,Vítkov,ORP
+1457,Vizovice,ORP
+35,Vlašim,ORP
+451,Vodňany,ORP
+43,Votice,ORP
+1228,Vrchlabí,ORP
+2054,Vsetín,ORP
+1643,Vyškov,ORP
+1252,Vysoké Mýto,ORP
+2011,Zábřeh,ORP
+1261,Žamberk,ORP
+876,Žatec,ORP
+1708,Žďár nad Sázavou,ORP
+795,Železný Brod,ORP
+1376,Židlochovice,ORP
+1465,Zlín,ORP
+1660,Znojmo,ORP
