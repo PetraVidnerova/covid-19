@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 typ = 'ORP' # možné hodnoty:  'Kraj', 'Okres', 'ORP', None (to stahne vsechno do jednoho souboru)
-SNAPSHOT = 4 # od 5 do 20, 5 je září 2018, viz https://api.inovujemesdaty.cz/snapshots.csv
-FILE_NAME = 'commuting_relations_ORP_08_2018' # příponu csv připojíme automaticky
+SNAPSHOT = 5 # od 5 do 20, 5 je září 2018, viz https://api.inovujemesdaty.cz/snapshots.csv
+FILE_NAME = 'commuting_relations_ORP_09_2018' # příponu csv připojíme automaticky
 BASE_URL = 'https://api.inovujemesdaty.cz/commuting_between_locations.csv' 
 DOWNLOAD_BY = 10 # stahovat 10 lokací najednou
 SLEEP_TIME = 1 # po každém stažení počkat sekundu
