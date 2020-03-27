@@ -1,10 +1,21 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-data = ['commuting_relations_ORP_4_2019.csv',
-        'commuting_relations_ORP_5_2019.csv',
-        'commuting_relations_ORP_6_2019.csv'
-        ]
+data = ['commuting_relations_ORP_10_2018.csv',
+        'commuting_relations_ORP_11_2018.csv',
+        'commuting_relations_ORP_12_2018.csv',
+        'commuting_relations_ORP_01_2019.csv',
+        'commuting_relations_ORP_02_2019.csv',
+        'commuting_relations_ORP_03_2019.csv',
+        'commuting_relations_ORP_04_2019.csv',
+        'commuting_relations_ORP_05_2019.csv',
+        'commuting_relations_ORP_06_2019.csv',
+        'commuting_relations_ORP_07_2019.csv',
+        'commuting_relations_ORP_08_2019.csv',
+        'commuting_relations_ORP_09_2019.csv',
+        'commuting_relations_ORP_10_2019.csv',
+        'commuting_relations_ORP_11_2019.csv',
+        'commuting_relations_ORP_12_2019.csv']
 
 import numpy as np
 import pandas as pd
@@ -22,25 +33,37 @@ def create_matrix(d):
             m[i, j] = row['count']
     return m
 
-def save_matrix(m, file_name):
+def save_matrix(m, file_name, matrix_name="dm"):
     from rpy2.robjects import r, numpy2ri
     numpy2ri.activate()
-    r.assign("dm", m)
-    r("save(dm, file='%s')" % file_name)
     # for Python 2
     #a = np.array(m, dtype='int64')
     #ro = numpy2ri.numpy2ri(a)
-    #r.assign("dm", ro)
-    #r("save(dm, file='%s')" % file_name)
+    r.assign(matrix_name, m)
+    r("save(%s, file='%s')" % (matrix_name, file_name))
 
-mats = []
-for i in range(len(data)):
-    fn = 'dist_matrix_%d' % (i+4) + '.Rdata'
-    print("Creating distance matrix %d" % (i+1))
-    m = create_matrix(pd.read_csv(data[i]))
-    print("Saving distance matrix %d" % (i+1))
-    save_matrix(m, fn)
-    mats.append(m)
+def dist_matrix(cr): # input is str with path to commuting_relations csv file
+    fn = 'dist_matrix' + cr[19:-3] + 'Rdata'
+    print("Creating distance matrix %s" % fn)
+    m = create_matrix(pd.read_csv(cr))
+    print("Saving distance matrix %s" % fn)
+    save_matrix(m, fn, matrix_name='dm' + cr[19:-4])
+    return m
+
+dist_matrix('commuting_relations_ORP_09_2018.csv')
+
+def quarter(q, data):
+    mats = []
+    for cr in data: # cr is filename that contains the date
+        m = dist_matrix(cr)
+        mats.append(m)
+        
+    m = sum(mats)*1.0/3.0
+    name = 'dist_matrix_ORP_Q' + str(q) + '_' + cr[-8:-4] 
+    save_matrix(m, name + '.Rdata', matrix_name=name)
     
-m = sum(mats)*1.0/3.0
-save_matrix(m, 'dist_matrix_Q2.Rdata')
+quarter(4, data[:3])
+quarter(1, data[3:6])
+quarter(2, data[6:9])
+quarter(3, data[9:12])
+quarter(4, data[12:15])
