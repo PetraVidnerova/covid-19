@@ -59,8 +59,9 @@ def quarter(q, data):
         mats.append(m)
         
     m = sum(mats)*1.0/3.0
-    name = 'dist_matrix_ORP_Q' + str(q) + '_' + cr[-8:-4] 
-    save_matrix(m, name + '.Rdata', matrix_name=name)
+    name = 'dist_matrix_ORP_Q' + str(q) + '_' + cr[-8:-4]
+    mname = 'dm_ORP_Q' + str(q) + '_' + cr[-8:-4] 
+    save_matrix(m, name + '.Rdata', matrix_name=mname)
     
 quarter(4, data[:3])
 quarter(1, data[3:6])
